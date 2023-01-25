@@ -39,3 +39,9 @@ body {
   width: 40px;
   padding: 5px 5px 5px 5px;
 }
+.forminput:focus {
+  border: 3px solid var(--primary-color);
+  outline: none;
+  /* outline serve para desaparecer a borda na hora que passamos o mouse no label */
+
+}
