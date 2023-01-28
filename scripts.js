@@ -18,7 +18,7 @@ else{
     //block faz aparecer
 
 }
-let total= (bill * quali) /people;
+let total= (bill * servicesQualid) /quantipeople;//são as variáveis let,não do index.html
 total=total.toFixed(2);
 document.getElementById("Tip").innerHTML = total;
 document.getElementById("totaltip").style.display="block";
