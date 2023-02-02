@@ -9,20 +9,20 @@
 
 <body>
   <div id="container">
-  <div>
-    <h1 class="title">Calculadora de Gorjeta</h1>
-  </div>
-  <div>
-    <form class="formtips" id="formtips">
-      <label for="bill">
-      <p>Quanto ficou a conta?</p>
-      </label>
-      <p>
-        R$ <input type="number" placeholder="100" name="bill" id="bill" class="forminput" >
-      </p> 
-      <label for="quali">
-        <p>Como foi o seu serviço?</p>
-      </label>
+    <div>
+      <h1 class="title">Calculadora de Gorjeta</h1>
+    </div>
+    <div>
+      <form class="formtips" id="formtips">
+        <label for="bill">
+          <p>Quanto ficou a conta?</p>
+        </label>
+        <p>
+          R$ <input type="number" placeholder="100" name="bill" id="bill" class="forminput">
+        </p>
+        <label for="quali">
+          <p>Como foi o seu serviço?</p>
+        </label>
         <p>
           <select name="quali" id="quali" class="formselect">
             <option disable selected value="0">--Escolha uma opção</option>
@@ -35,23 +35,23 @@
             <!-- testes 4 -->
           </select>
         </p>
-      <label for="people">
-        <p>Quantas pessoas vão dividir a conta?</p>
-      </label>
-      <p>
-        <input type="number" placeholder="1" name="people" id="people" class="forminput"> pessoa(s)
-      </p>
-      <button type="submit" class="formsubmit">Calcular!</button>
-    </form>
-  </div>
-  <div id="totaltip">
-    Gorjeta total:
-    R$<span id="Tip">0.00</span>
-    <p id="each">cada</p>
-  </div>
+        <label for="people">
+          <p>Quantas pessoas vão dividir a conta?</p>
+        </label>
+        <p>
+          <input type="number" placeholder="1" name="people" id="people" class="forminput"> pessoa(s)
+        </p>
+        <button type="submit" class="formsubmit">Calcular!</button>
+      </form>
+    </div>
+    <div id="totaltip">
+      Gorjeta total:
+      R$<span id="Tip">0.00</span>
+      <p id="each">cada</p>
+    </div>
   </div>
   <script type="text/javascript" src="scripts.js"></script>
-<!-- Colocar essa tag faz com que o Javascript carrega toda pg html,se colocar lá em cima,não carrega -->
+  <!-- Colocar essa tag faz com que o Javascript carrega toda pg html,se colocar lá em cima,não carrega -->
 </body>
 
 </html>
